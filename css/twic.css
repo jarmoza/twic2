@@ -1,0 +1,158 @@
+html {
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #808080;
+}
+
+.ui-widget-content {
+    background-color:transparent !important;
+    background-image:none !important;
+    border:none !important;
+    overflow: scroll;
+}
+
+.ui-resizable-se {
+    background-image: url("");
+}
+
+.ui-resizable-s {
+    background-image: url("");
+}
+
+.ui-resizable-e {
+    background-image: url("");
+}
+
+.div_twic_level{
+  position: relative;
+  width: 100%;
+  max-width:100%;
+  margin: 0 auto;
+}
+
+.div_twic_level:before{
+    margin-top: 25%;
+    content: '.';
+    font-size: 0;
+    display: inline-block;
+}
+
+.div_twic_control{
+  position:relative;
+  display: block;
+}
+
+.div_twic_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+}
+
+.twic_panel {
+  position: relative;
+  overflow: auto;
+  display: block;
+}
+
+.div_twic_graph {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.div_twic_graph_corpusview {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.div_twic_graph_corpusclusterview {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.div_twic_graph_textclusterview {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.group_twic_graph_overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.div_twic_info {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border-radius:15px;
+  background-color: #002240;
+  position:absolute;
+}
+
+.topic_highlightrect {
+  position: absolute;
+}
+
+.topic_wordlist {
+  font-family: Inconsolata;
+  font-size: 23;
+  position: absolute;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-family: Archer;
+  font-size: 21;
+  padding: 12px;
+  background: rgba(223,218,196, 0.8);
+  color: #4C2F2E;
+  border-radius: 5px;
+}
+
+.text_p {
+    display: block;
+    line-height: 32px;
+}
+
+.text_edgespan {
+    font-family: Inconsolata;
+    font-size: 22;
+    opacity: 1.0;
+}
+
+.text_word {
+    font-family: Inconsolata;
+    font-size: 22;
+    opacity: 1.0;
+    color: #FAFAD2;
+}
+
+.text_coloredword {
+    font-family: Inconsolata;
+    font-size: 22;
+    opacity: 1.0;
+}
+
+

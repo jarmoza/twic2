@@ -1,0 +1,6 @@
+user_source_path: /Users/PeregrinePickle/Documents/digital_humanities/dickinson/txt/
+corpus_short_name: dickinson_archive
+corpus_full_name: Emily Dickinson Archive
+num_topics: 100
+num_intervals: 100
+text_chunk_size_words: 5000
