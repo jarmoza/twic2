@@ -313,7 +313,7 @@ Don't worry though. This setup step just requires a familiarity with how to acce
 
 Steps **1-3** below only need to be done when first setting up TWiC. Steps **4-5** however will need to be run whenever you want to rerun the modeler or adjust its parameters.
 
-1. **Download** TWiC from github.com/jarmoza/twic.
+1. **Download** TWiC from github.com/jarmoza/twic2.
 
 2. **Unzip** the download to where you want the TWiC folder. (This will unzip as a folder called `twic-master`. You can rename or place it wherever you would like. Just recall that whenever I refer to a folder named `twic` below, this is the folder I'm referring to.)
 
@@ -380,7 +380,7 @@ This option deletes MALLET output files stored in `twic/data/output/mallet` from
 
 This option runs MALLET using the parameters set in `twic_config.yaml` in the `twic` folder. Current MALLET parameters include `num_topics`, `num_intervals`. Other current parameters include `text_chunk_size_words`. 
 
-Any additional MALLET parameters can be used however. Users can file a change request at github.com/jarmoza/twic/issues, or can be added in `twic_malletscript.y` found in the `twic/code/py/general/` folder – see methods `ImportDir()` and `TrainTopics()` in the `TWiC_MalletScript` class.
+Any additional MALLET parameters can be used however. Users can file a change request at github.com/jarmoza/twic2/issues, or can be added in `twic_malletscript.y` found in the `twic/code/py/general/` folder – see methods `ImportDir()` and `TrainTopics()` in the `TWiC_MalletScript` class.
 
 Another alternative to altering TWiC's script, is to run MALLET separately using your own parameters. Users can place MALLET's output files in the `twic/data/output/mallet` folder, and then run `twic_corpus2vis.py` with the _i_ option. This will require some knowledge of MALLET's parameters (one could also look at TWiC's `ImportDir()` and `TrainTopics()` methods for examples), but in any case, TWiC requires the files output by these MALLET parameters: `--output-state`, `--output-doc-topics`, `--output-topic-keys`, and `--topic-word-weights-file`.
 
